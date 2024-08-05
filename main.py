@@ -3,11 +3,16 @@ from database import create_db, add_income, add_expense, fetch_data
 from gui import setup_gui
 from data_analysis import generate_report
 
-def add_income():
-    pass
-
-def add_expense():
-    pass
 
 root = tk.Tk()
 root.title("Personal Finance Manager")
+root.geometry("400x400")
+
+setup_gui(root)
+
+add_income_button.config(command = add_income)
+add_expense_button.config(command = add_expense)
+report_button.config(command = generate_report)
+
+
+root.mainloop()
