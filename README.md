@@ -14,7 +14,7 @@ Ill finish this later
 * ex. Windows 10
 
 ### Installing
-Cloning the repository and running the code will give you the same abilities and access to the program, and also gives 
+Cloning the repository and running the code will give you the same abilities and access to the program, and also gives users the ability to customize program to their liking. 
 
 ### Executing program
 
