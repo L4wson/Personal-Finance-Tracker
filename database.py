@@ -15,4 +15,9 @@ def add_expense():
     pass
 
 def fetch_data():
-    pass
+    conn = sqlite3.connect('finance.db')
+    c = conn.cursor()
+    c.execute(f"SELECT * FROM {table}")
+    data = c.fetchall()
+    conn.close()
+    return data
