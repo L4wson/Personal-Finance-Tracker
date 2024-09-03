@@ -11,14 +11,14 @@ def create_db():
 def add_income():
     conn = sqlite3.connect('finance.db')
     c = conn.cursor()
-    c.execute("INSERT INTO income (...) Values (...)", (...))
+    c.execute("INSERT INTO income (amount, source, date, description) VALUES (?, ?, ?, ?);", (amount, source, date, description))
     conn.commit()
     conn.close()
 
 def add_expense():
     conn = sqlite3.connect('finance.db')
     c = conn.cursor()
-    c.execute("INSERT INTO expense (...) Values (...)", (...))
+    c.execute("INSERT INTO expense (amount, category, date, description) VALUES (?, ?, ?, ?);", (amount, category, date, description))
     conn.commit()
     conn.close()
 

@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from database. export fetch_data
+from database import fetch_data
 def fetch_data_from_db():
     pass
 
