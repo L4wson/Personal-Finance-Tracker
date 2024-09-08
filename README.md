@@ -4,7 +4,7 @@ A python gui finance tracker made specifically to help college students balance 
 
 ## Description
 
-Ill finish this later
+his is a personal finance tracker aimed at college students
 
 ## Getting Started
 
