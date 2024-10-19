@@ -13,8 +13,8 @@ Feel free to fork the code or tweak anything you're interested in.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Python
+
 
 ### Installing
 Cloning the repository and running the code will give you the same abilities and access to the program, and also gives users the ability to customize program to their liking. 
